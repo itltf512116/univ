@@ -8,7 +8,7 @@ list of all university in the world，the data comes from https://univ.cc/.
 
 # 2.resolve all university information in each country
 
-# 3.resolve all university in United Status
+# 3.resolve all university in United States
 
 # 4.save data to ./university.json
 
