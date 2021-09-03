@@ -48,7 +48,7 @@ func (c UnivClient) ResolveAllCountries() ([]Country, error) {
 		}
 		name := strings.Split(s.Text(), " (")[0]
 
-		if v == "hk" || v == "tw" { // Hong Kong and Taiwan are part of China
+		if v == "hk" || v == "tw" || v == "mo" { // Hong Kong,Taiwan and Macau are part of China
 			name = "China " + name
 		}
 
